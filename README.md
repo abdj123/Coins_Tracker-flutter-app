@@ -1,16 +1,26 @@
-# bitcoin_ticker
+# Crypto Price Tracker Flutter App
 
-A new Flutter project.
+This Flutter app is designed to track the prices of the popular cryptocurrencies Ethereum (ETH), Bitcoin (BTC), and Litecoin (LTC) in real-time 
+by fetching data from a REST API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+  - Track real-time prices of ETH, BTC, and LTC
+  - Supports multiple fiat currencies for pricing conversion
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  1. Clone the repository to your local machine.
+  2. Open the project in your favorite IDE or text editor.
+  3. Run "flutter packages get" in the terminal to install dependencies.
+  4. Connect your Android or iOS device to your computer or open an emulator.
+  5. Run "flutter run" to launch the app on your device or emulator.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API
+The app uses the coinapi.io API to fetch cryptocurrency price data. 
+You can find more information about the API at https://docs.coinapi.io/market-data/rest-api/exchange-rates.
+
+
+## Contributing
+Contributions are welcome and encouraged! Feel free to fork the repository and submit a pull request.
+
